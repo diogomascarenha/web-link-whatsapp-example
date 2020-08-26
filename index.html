@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .botao-wpp {
+        text-decoration: none;
+        color: #eee;
+        display: inline-block;
+        background-color: #25d366;
+        font-weight: bold;
+        padding: 1rem 2rem;
+        border-radius: 3px;
+      }
+
+      .botao-wpp:hover {
+        background-color: darken(#25d366, 5%);
+      }
+
+      .botao-wpp:focus {
+        background-color: darken(#25d366, 15%);
+      }
+
+      /* só centraliza o botão */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- só o conteúdo do href já é suficiente -->
+    <a
+      href="whatsapp://send?text=Quem indica amigo é, não é mesmo?
+Te indiquei para você conhecer os serviços da Agilize Contabilidade Online! Já sou cliente e estou muito feliz com os serviços prestados além de ter uma economia de aproximadamente R$ 5000 por ano.  Acesse o link para saber mais. https://bit.ly/2UrUd9Z"
+      class="botao-wpp"
+    >
+      <!-- ícone -->
+      <i class="fa fa-whatsapp"></i>
+      whatsapp
+    </a>
+  </body>
+</html>
